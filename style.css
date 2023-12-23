@@ -1,0 +1,104 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color:aqua;
+    
+}
+
+header {
+    background-color: #f16098;
+    padding: 20px;
+    text-align: center;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #080808;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article img {
+    width: 80%;
+    height: auto;
+}
+
+article h2 {
+    margin-bottom: 10px;
+}
+
+article p {
+    margin-bottom: 10px;
+}
+
+article a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+.slider {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+   }
+   
+   .slide {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s;
+   }
+   
+   .slide:first-child {
+    opacity: 1;
+   }
+
+   .card{
+    float: left;
+    width: 20%;
+    text-align: center;
+    border: 1px solid black;
+    margin: 21px;
+    padding: 10px;
+
+   }
+   .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.aboutme{
+    width: 70%;
+}
+#icons{
+    letter-spacing: 10px;
+}

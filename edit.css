@@ -1,0 +1,12 @@
+body{
+    background: url(image/1.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    width: 70%;
+    font-family: cursive;
+    text-align: center ;
+  text-shadow: 2px 2px 5px rgb(233, 231, 241);
+  background-position: center;
+  height: 380%;
+  background-position-x: fixed;
+}
